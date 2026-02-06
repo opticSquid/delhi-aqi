@@ -2,7 +2,6 @@ import pandas as pd
 from sklearn.feature_selection import mutual_info_regression
 
 from helpers.constants import CATEGORICAL_COLS, MI_THRESHOLD, RANDOM_STATE
-from helpers.datetimetransformer import datetime_to_unix
 
 
 def week_day_to_int(series: pd.Series) -> pd.Series:
